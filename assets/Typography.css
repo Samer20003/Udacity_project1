@@ -1,14 +1,21 @@
 .navbar_pargrah{
     padding-top: 17px;
-     text-decoration:underline;
+     
       color: #828A91;
 }
 .navbar_title{
-    text-decoration: underline; 
     color: #363C40
 }
 .navbar_icon{
     padding-top: 17px;
-     text-decoration: underline; 
+    
      color: #828A91
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+
+}
+.social img{
+    width: 100px;
 }
