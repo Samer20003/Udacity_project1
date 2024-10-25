@@ -30,3 +30,10 @@
 .card2{
     color: #3DA949;
 }
+.footer_pargraph{
+    text-align: center;
+}
+.footer_link{
+    display: block; 
+    text-align: center;
+}
