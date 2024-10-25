@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 20px; 
+   
+}
+
+.footer{
+    width: 795px;
+    height: 109px;
+    display: inline-block;
+    margin-left: 23%;
+    background-color: #F9F9F9;
+
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
